@@ -21,20 +21,20 @@ for n in wordlist:
 for key in list(word_dict.keys()):
     print(key, ":",word_dict[key], sep = '')
 
-    # if key == 'Father':
-    #     print(key, ":",word_dict[key], sep = '')
-    # elif key == 'God':
-    #     print(key, ":",word_dict[key], sep = '')
-    # elif key == 'Christ':
-    #     print(key, ":",word_dict[key], sep = '')
-    # elif key == 'Spirit':
-    #     print(key, ":",word_dict[key], sep = '')
-    # elif key == 'spirit':
-    #     print(key, ":",word_dict[key], sep = '')
-    # elif key == 'life':
-    #     print(key, ":",word_dict[key], sep = '')
-    # elif key == 'man':
-    #     print(key, ":",word_dict[key], sep = '')
+     if key == 'Father':
+         print(key, ":",word_dict[key], sep = '')
+     elif key == 'God':
+        print(key, ":",word_dict[key], sep = '')
+     elif key == 'Christ':
+        print(key, ":",word_dict[key], sep = '')
+     elif key == 'Spirit':
+        print(key, ":",word_dict[key], sep = '')
+     elif key == 'spirit':
+        print(key, ":",word_dict[key], sep = '')
+     elif key == 'life':
+        print(key, ":",word_dict[key], sep = '')
+     elif key == 'man':
+        print(key, ":",word_dict[key], sep = '')
     
 
 infile.close()
